@@ -1,0 +1,10 @@
+ACTIVITY 14 MERGED PROJECT
+This ZIP uses your Activity 12 Firestore product app as the base and adds Firebase Cloud Messaging for Activity 14. Android Firebase configuration is included for com.example.my_product_app in project afeef-inclass12-319d5.
+
+Open PowerShell in this folder:
+  flutter doctor
+  flutter devices
+  flutter pub get
+  flutter run
+
+Then read README.md for exact Firebase Console send steps and docs/TEST_RECORD.md for T1-T4. This is Flutter project source, not a bundled Flutter/Android SDK. Run on your phone and record real outcomes; this workspace has no Flutter SDK, so it could not build an APK here. Keep the FCM token private and redact it from evidence.
