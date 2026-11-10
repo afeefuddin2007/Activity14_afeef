@@ -31,11 +31,3 @@ The app reads the Firestore `products` collection. Documents need a non-empty st
 
 The data mapper accepts only `action=update_ui` plus `asset=default|promo`. `onBackgroundMessage` is a top-level background-isolate handler and intentionally does not update widget state. Message delivery depends on Android permission, network, payload, and device state; write down actual outcomes, including blocked tests.
 
-## Submission checklist
-
-- Push this exact tested Flutter source to an accessible GitHub repository; submit that URL.
-- Capture one concise recording of T1–T4 or four labeled screenshots showing each handler and visible UI. Redact the installation token.
-- Complete `docs/TEST_RECORD.md` and `docs/REFLECTION_TEMPLATE.md` from your observed results; do not claim an unrun test passed.
-- Upload repository URL, evidence, and reflection to the LMS and verify the LMS submission confirmation.
-
-The Activity 14 page lists November 9, 2026 at 11:59 PM EST as its deadline. Check the LMS for any instructor update.
